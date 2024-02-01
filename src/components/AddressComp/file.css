@@ -1,0 +1,48 @@
+* {
+  font-family: 'Roboto';
+}
+.group-container {
+  display: flex;
+  flex-direction: column;
+}
+.row-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.place-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.label {
+  margin-top: 10px;
+  margin-bottom: 4px;
+  margin: 5px;
+  font-size: 16px;
+  color: black;
+}
+.required {
+  color: red;
+  font-size: 16px;
+}
+.address-input {
+  width: 100%;
+  padding: 8px 16px 16px 8px;
+  margin-bottom: 2px;
+}
+.place-input {
+  width: 45%;
+  padding: 8px 16px 16px 8px;
+  margin-bottom: 2px;
+}
+
+.error-message {
+  align-self: start;
+  margin-top: 3px;
+  margin-bottom: 0px;
+  font-family: 'Roboto';
+  font-size: 12px;
+  line-height: 16px;
+  color: #ff0b37;
+}
